@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Information</title>
+  <script src="hi.js" defer></script>
+  <style>
+    table {
+      width: 80%;
+      border-collapse: collapse;
+      margin: 20px;
+    }
+
+    th, td {
+      border: 1px solid #4d09cc;
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    alert(" Welcome to User/Student");
+  </script>
+
+  <h1>Welcome to <span id="userName">User/Student</span></h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Student ID</th>
+        <th>Name</th>
+        <th>Course & Year</th>
+      </tr>
+    </thead>
+    <tbody id="studentTableBody">
+    </tbody>
+  </table>
+
+  <button onclick="printStudentList()">Print Student List</button>
+</body>
+</html>
